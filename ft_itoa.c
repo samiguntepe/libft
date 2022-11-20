@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/16 17:45:55 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/01 15:16:58 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/20 13:08:00 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
+// #include <stdio.h>
 static int	ft_numlen(int num)
 {
 	int	i;

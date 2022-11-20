@@ -6,14 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/18 15:20:38 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/01 16:58:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/20 13:07:07 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <fcntl.h>
-#include <unistd.h>
-#include <stdio.h>
+// #include <fcntl.h>
 
 void	ft_putchar_fd(char c, int fd)
 {

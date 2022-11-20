@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/16 08:30:29 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/01 15:20:45 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
+// #include <stdio.h>
 static int	ft_checkset(char c, char const *set)
 {
 	size_t	i;

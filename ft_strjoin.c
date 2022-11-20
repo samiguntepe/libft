@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/15 19:49:53 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/01 15:19:29 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
+// #include <stdio.h>
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	size_t	i;

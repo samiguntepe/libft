@@ -1,40 +1,49 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstlast.c                                       :+:      :+:    :+:   */
+/*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/20 15:00:54 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 15:00:55 by sguntepe         ###   ########.fr       */
+/*   Created: 2022/11/20 15:00:48 by sguntepe          #+#    #+#             */
+/*   Updated: 2022/11/20 15:01:51 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
-t_list	*ft_lstlast(t_list *lst)
+
+// void	*del(void *lst);
+
+void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
+	t_list	*temp;
+
 	if (!lst)
-		return (0);
-	while (lst->next != NULL)
+		return ;
+	while (*lst)
 	{
-		lst = lst->next;
+		temp = (*lst)-> next;
+		ft_lstdelone((*lst), del);
+		*(lst) = temp;
 	}
-	return (lst);
 }
 
-// int main()
+// int main(void)
 // {
-//     t_list *node1,*node2,*node3;
+//     t_list *node,*node1,*node2;
 
+//     node = (t_list *)malloc(sizeof(t_list));
 //     node1 = (t_list *)malloc(sizeof(t_list));
-// 	node2 = (t_list *)malloc(sizeof(t_list));
-// 	node3 = (t_list *)malloc(sizeof(t_list));
+//     node2 = (t_list *)malloc(sizeof(t_list));
 
-//     node1->next = node2;
-// 	node2->next = node3;
-// 	node3->next = NULL;
-//     node3->content = "42Kocaeli";
+// }
 
-//     printf("%s",(char *)ft_lstlast(node1)->content);
+// void    *del(void *lst)
+// {
+//     t_list *ptr;
+
+//     ptr = (t_list *)lst;
+
+//     ptr->content = 0;
+//     return 0;
 // }

@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 11:10:25 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/01 15:18:34 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
+// #include <stdio.h>
 // Ayırıcılar arası kaç kelime olduğunu sayar.
 unsigned int	wordcounter(const char *s, char delimiter)
 {

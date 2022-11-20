@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 09:17:53 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/01 15:19:00 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
+// #include <stdio.h>
 char	*ft_strdup(const char *s1)
 {
 	char	*ptr;

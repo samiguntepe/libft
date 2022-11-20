@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 22:21:08 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/01 15:17:20 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
+// #include <stdio.h>
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	const unsigned char	*s1_uc;

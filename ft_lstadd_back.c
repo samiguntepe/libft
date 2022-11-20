@@ -1,40 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstlast.c                                       :+:      :+:    :+:   */
+/*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/20 15:00:54 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 15:00:55 by sguntepe         ###   ########.fr       */
+/*   Created: 2022/11/20 15:00:37 by sguntepe          #+#    #+#             */
+/*   Updated: 2022/11/20 15:00:40 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 // #include <stdio.h>
-t_list	*ft_lstlast(t_list *lst)
+
+void	ft_lstadd_back(t_list **lst, t_list *new)
 {
-	if (!lst)
-		return (0);
-	while (lst->next != NULL)
+	t_list	*temp;
+
+	if (!*lst)
+		*lst = new;
+	else
 	{
-		lst = lst->next;
+		temp = ft_lstlast(*lst);
+		temp->next = new;
 	}
-	return (lst);
 }
 
 // int main()
 // {
-//     t_list *node1,*node2,*node3;
+//     t_list *node1,*node2;
 
 //     node1 = (t_list *)malloc(sizeof(t_list));
-// 	node2 = (t_list *)malloc(sizeof(t_list));
-// 	node3 = (t_list *)malloc(sizeof(t_list));
+//     node2 = (t_list *)malloc(sizeof(t_list));
 
-//     node1->next = node2;
-// 	node2->next = node3;
-// 	node3->next = NULL;
-//     node3->content = "42Kocaeli";
+//     node1 = ft_lstnew("42");
+//     node2 = ft_lstnew("Kocaeli");
 
-//     printf("%s",(char *)ft_lstlast(node1)->content);
+//     ft_lstadd_back(&node1,node2);
+
+//     printf("%s",node1->content);
+//     printf("%s",node1->next->content);
 // }
