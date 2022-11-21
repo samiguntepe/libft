@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 16:31:05 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 12:56:09 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/21 23:28:12 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,16 +19,19 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	*lst = new;
 }
 
-// int main()
+// int main(void)
 // {
-//     t_list *list;
-//     t_list *list2;
+// 	t_list *node1;
+// 	t_list *node2;
 
-//     list2 = ft_lstnew("güntepe");
-//     list = ft_lstnew("sami");
-
-//     ft_lstadd_front(&list2, list);
-
-//     printf("%s",list2->content);
-//     printf("%s",list2->next->content);    
+// 	node1 = ft_lstnew("42");
+// 	node2 = ft_lstnew(" Kocaeli");	
+	
+// 	ft_lstadd_front(&node2, node1);	
+	
+// 	printf("%s",(char *)node2->content);
+// 	printf("%s",(char *)node2->next->content);
+// 	return (0);
 // }
+
+// lst structının bağlı olduğu listelerin sonuna gider ve new sructını ekler.
