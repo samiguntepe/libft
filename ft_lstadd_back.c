@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:00:37 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/21 23:34:14 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/21 23:36:17 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,5 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 //     printf("%s",(char *)node1->content);
 //     printf("%s",(char *)node1->next->content);
 // }
+
+// lst structının bağlı olduğu listelerin sonuna gider ve new sructını ekler.

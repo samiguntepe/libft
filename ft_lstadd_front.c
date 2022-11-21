@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 16:31:05 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/21 23:28:12 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/21 23:38:31 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,4 +34,4 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 // 	return (0);
 // }
 
-// lst structının bağlı olduğu listelerin sonuna gider ve new sructını ekler.
+// lst structının bağlı olduğu listelerin başına ekler ve lst structı new structını işaret eder.
