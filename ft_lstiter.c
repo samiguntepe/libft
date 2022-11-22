@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 17:57:10 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 18:03:40 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/22 13:16:04 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,16 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 	}
 }
 
-// void ft_change(void *lst)
-// {
-//     ((t_list *)lst)->content = "selam";
-// }
+void ft_change(void *content)
+{
+    int i = 0;
+	
+	while (((char *)content)[i])
+    {
+		((char *)content)[i] = ft_toupper(((char *)content)[i]);
+        i++;
+    }
+}
 
 // int main()
 // {
@@ -36,17 +42,16 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 //     node2 = (t_list *)malloc(sizeof(t_list));
 //     node3 = (t_list *)malloc(sizeof(t_list));
 
-//     node1->next = node2;
-//     node2->next = node3;
-//     node3->next = NULL;
+// 	ft_lstadd_back(&node1,node2);
+// 	ft_lstadd_back(&node1,node3);
 
-//     node1->content = "Kocaeli";
-//     node2->content = "Kocaeli";
-//     node3->content = "Kocaeli";
+//     node1->content = ft_strdup("kocaeli");
+//     node2->content = ft_strdup("kocaeli");
+//     node3->content = ft_strdup("kocaeli");
 
 //     ft_lstiter(node1,ft_change);
 
 //     printf("%s\n",(char *)node1->content);
-//     printf("%s\n",(char *)node2->content);
-//     printf("%s\n",(char *)node3->content);
+//     printf("%s\n",(char *)node1->next->content);
+//     printf("%s\n",(char *)node1->next->next->content);
 // }
