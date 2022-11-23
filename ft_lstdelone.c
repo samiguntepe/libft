@@ -6,14 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:00:43 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/22 15:12:17 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/23 14:03:24 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 // #include <stdio.h>
-
-//void	*del(void *lst);
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
@@ -23,30 +21,30 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 	free(lst);
 }
 
-// int main(void)
+// void    *del(void *content)
 // {
-//     t_list *node,*freeNode;
-
-//     node = (t_list *)malloc(sizeof(t_list));
-//     freeNode = (t_list *)malloc(sizeof(t_list));
-//     node->content = "42Kocaeli";
-//     node->next = freeNode;
-
-//     ft_lstdelone(node,(void *)(*del));
-
-//     if(node->content == NULL && node->next == NULL)
-//         printf("1");
-//     else
-//         printf("0");
-//         return 0;
-// }
-
-// void    *del(void *lst)
-// {
-//     t_list *ptr;
-
-//     ptr = (t_list *)lst;
-
-//     ptr->content = 0;
+//    free(content);
 //     return 0;
 // }
+
+// int main(void)
+// {
+//     t_list *node1,*node2;
+
+//     node1 = (t_list *)malloc(sizeof(t_list));
+//     node2 = (t_list *)malloc(sizeof(t_list));
+//     node1->content = node2;
+//     node1->content = ft_strdup("42Kocaeli");
+//     node2->content = ft_strdup("42TR");
+//     node2->next = NULL;
+
+//     ft_lstdelone(node1,(void *)(*del));
+    
+//     printf("%s\n",(char *)node1->content);
+//     printf("%s\n",(char *)node1->next);
+//     printf("%s\n",(char *)node2->content);
+// }
+
+// fonksiyona gelen structın contentini (del) fonksiyonu ile siler 
+// ve (free) fonksiyonu ile parametreden gelen lst structı silinir.
+// lst'nin bağlı olduğu sonraki struct yapısı silinmez.
