@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:00:43 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/23 14:03:24 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/24 10:32:12 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,11 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 	free(lst);
 }
 
-// void    *del(void *content)
-// {
-//    free(content);
-//     return 0;
-// }
+void    *del(void *content)
+{
+   free(content);
+    return 0;
+}
 
 // int main(void)
 // {
@@ -41,7 +41,6 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 //     ft_lstdelone(node1,(void *)(*del));
     
 //     printf("%s\n",(char *)node1->content);
-//     printf("%s\n",(char *)node1->next);
 //     printf("%s\n",(char *)node2->content);
 // }
 
