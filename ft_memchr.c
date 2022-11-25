@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 10:52:57 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 19:56:37 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 void	*ft_memchr(const void *s, int c, size_t n)
 {
 	unsigned char	*str;
@@ -25,13 +25,13 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	return (NULL);
 }
 
-/*
-int main()
-{
-	char *s = "Sami Guntepe";
-	printf("%c", (char *)ft_memchr(s,'u',8));
-}
-*/
+// #include <stdio.h>
+
+// int main()
+// {
+// 	char *s = "Sami Guntepe";
+// 	printf("%c", (char *)ft_memchr(s,'u',8));
+// }
 
 /* s dizisinde c parametresine girilen değeri bulana kadar indexlerde gezer 
  * ve c parametresini bulunca adresini döndürür. 

@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:00:48 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/23 15:24:56 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 19:55:31 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*temp;
@@ -25,6 +25,8 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 		*(lst) = temp;
 	}
 }
+
+// #include <stdio.h>
 
 // void    *del(void *content)
 // {

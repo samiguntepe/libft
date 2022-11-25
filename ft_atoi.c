@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 23:06:26 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:07:41 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 19:54:38 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 int	ft_atoi(const char *str)
 {
 	int	d;
@@ -40,12 +40,12 @@ int	ft_atoi(const char *str)
 	return (s * d);
 }
 
-/*
-int main()
-{
-	char *str = " -123";
-	printf("%d",ft_atoi(str));
-}
-*/
+// #include <stdio.h>
+
+// int main()
+// {
+// 	char *str = " -123";
+// 	printf("%d",ft_atoi(str));
+// }
 
 // str'den gelen char dizisini int değere çeviriyor.

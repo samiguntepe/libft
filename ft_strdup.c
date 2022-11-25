@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 09:17:53 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 20:02:21 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 char	*ft_strdup(const char *s1)
 {
 	char	*ptr;
@@ -30,13 +30,13 @@ char	*ft_strdup(const char *s1)
 	return (ptr);
 }
 
-/*
-int main()
-{
-	char s1[] = "merhaba";
-	printf("%s",ft_strdup(s1));
+// #include <stdio.h>
 
-}
-*/
+// int main()
+// {
+// 	char s1[] = "merhaba";
+// 	printf("%s",ft_strdup(s1));
+
+// }
 
 // Parametreden gelen dizinin bir kopyasını malloc ile açılan belleğe kopyalar.

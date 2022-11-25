@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 14:44:47 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 20:03:45 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 size_t	ft_strlcpy(char *dest, const char *src, size_t n)
 {
 	size_t	i;
@@ -29,15 +29,15 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t n)
 	return (ft_strlen (src));
 }
 
-/*
-int main()
-{
-	char dest[] = "Merhaba";
-	char src[] = "42Kocaeli";
+// #include <stdio.h>
 
-	printf("%zu",ft_strlcpy(dest,src,4));
-}
-*/
+// int main()
+// {
+// 	char dest[] = "Merhaba";
+// 	char src[] = "42Kocaeli";
 
-/* Fonksiyon paremetresinde girilen n değeri kadar 
- * src'yi dest'e kopyalar. ve src uzunluğunu döndürür. */
+// 	printf("%zu",ft_strlcpy(dest,src,4));
+// }
+
+// Fonksiyon paremetresinde girilen n değeri kadar 
+// src'yi dest'e kopyalar. ve src uzunluğunu döndürür.

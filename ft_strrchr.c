@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 16:45:45 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 20:05:54 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 char	*ft_strrchr(const char *s, int c)
 {
 	int		i;
@@ -26,14 +26,14 @@ char	*ft_strrchr(const char *s, int c)
 	return (NULL);
 }
 
-/*
-int main()
-{
-	char s[] = "Merhaba42Kocaeli";
-	printf("%s",ft_strrchr(s,'4'));
-}
-*/
+// #include <stdio.h>
 
-/* Bulunan karakterden "c" itibaren sayar ve döndürür.
- * strchr ile aynı sonucu verir.
- * (Bu olayı tersten başlayarak yapar) */
+// int main()
+// {
+// 	char s[] = "Merhaba42Kocaeli";
+// 	printf("%s",ft_strrchr(s,'4'));
+// }
+
+// Bulunan karakterden "c" itibaren sayar ve döndürür.
+// strchr ile aynı sonucu verir.
+// (Bu olayı tersten başlayarak yapar)

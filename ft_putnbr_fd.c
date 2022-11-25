@@ -6,12 +6,11 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/18 15:21:12 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/01 16:59:23 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 20:01:13 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include <fcntl.h>
 
 void	ft_putnbr_fd(int n, int fd)
 {
@@ -32,14 +31,14 @@ void	ft_putnbr_fd(int n, int fd)
 	}
 }
 
-/*
-int main()
-{
-	int fd = open("/Users/sguntepe/Desktop/test.txt",O_WRONLY);
-	ft_putstr_fd("Merhaba ",fd);
-	ft_putnbr_fd(42,fd);
-	ft_putstr_fd(" Kocaeli",fd);
-}
-*/
+//#include <fcntl.h>
+
+// int main()
+// {
+// 	int fd = open("/Users/sguntepe/Desktop/test.txt",O_WRONLY);
+// 	ft_putstr_fd("Merhaba ",fd);
+// 	ft_putnbr_fd(42,fd);
+// 	ft_putstr_fd(" Kocaeli",fd);
+// }
 
 // n parametresine girilen int değeri fd dosyasına yazar.

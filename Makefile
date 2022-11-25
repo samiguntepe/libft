@@ -6,7 +6,7 @@
 #    By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/07 10:17:12 by sguntepe          #+#    #+#              #
-#    Updated: 2022/10/20 14:05:47 by sguntepe         ###   ########.fr        #
+#    Updated: 2022/11/25 09:24:53 by sguntepe         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,15 +20,18 @@ CC		= gcc
 all: $(NAME)
 
 $(NAME):
-	$(CC) $(FLAG) -c $(SRC)
-	ar rc $(NAME) *.o
+	@$(CC) $(FLAG) -c $(SRC)
+	@echo "✅"
+	@ar rc $(NAME) *.o
 bonus:
-	$(CC) $(FLAG) -c $(BONUS)
-	ar rc $(NAME) *.o
+	@$(CC) $(FLAG) -c $(BONUS)
+	@echo "✅"
+	@ar rc $(NAME) *.o
 clean:
-	/bin/rm -f  *.o
+	@/bin/rm -f  *.o *.out
 fclean: clean
-	/bin/rm -f $(NAME)
+	@/bin/rm -f $(NAME)
+	@echo "🗑️"
 
 re: fclean all
 

@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 23:06:06 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 20:05:19 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
 	size_t	i;
@@ -37,15 +37,15 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	return (NULL);
 }
 
-/*
-int main()
-{
-	char hstack[] = "Merhaba42Kocaeli";
-	char needle[] = "42";
+// #include <stdio.h>
 
-	printf("%s",ft_strnstr(hstack,needle,10));
-}
-*/
+// int main()
+// {
+// 	char hstack[] = "Merhaba42Kocaeli";
+// 	char needle[] = "42";
 
-/* needle(iğne)'yi haystack(samanlık)'da len kadar arar 
- * bulduğu zaman devamını da döndürür. */
+// 	printf("%s",ft_strnstr(hstack,needle,10));
+// }
+
+// needle(iğne)'yi haystack(samanlık)'da len kadar arar 
+// bulduğu zaman devamını da döndürür.

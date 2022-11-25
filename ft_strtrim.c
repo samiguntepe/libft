@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/16 08:30:29 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 20:06:14 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 static int	ft_checkset(char c, char const *set)
 {
 	size_t	i;
@@ -50,14 +50,14 @@ char	*ft_strtrim(char const *s1, char const *set)
 	return (m);
 }
 
-/*
-int main()
-{
-	char s1[] = "xxMerhaba42Kocaelixcss";
-	char set[] = "xcs";
+// #include <stdio.h>
 
-	printf("%s",ft_strtrim(s1,set));
-}
-*/
+// int main()
+// {
+// 	char s1[] = "xxMerhaba42Kocaelixcss";
+// 	char set[] = "xcs";
+
+// 	printf("%s",ft_strtrim(s1,set));
+// }
 
 // s1 dizisinin başında ve sonunda set karakterlerini arar bulduğu zaman kırpar.

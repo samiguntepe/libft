@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/16 08:37:48 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 20:06:37 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	size_t	i;
@@ -40,14 +40,14 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return (NULL);
 }
 
-/*
-int main()
-{
-	char s[] = "Merhaba42Kocaeli";
+// #include <stdio.h>
 
-	printf("%s",ft_substr(s,7,9));
-}
-*/
+// int main()
+// {
+// 	char s[] = "Merhaba42Kocaeli";
 
-/* s dizisinde start değeri ile başlanıp len değerine kadar 
- * bellekte yer açar ve s dizisinden kopyalar. */
+// 	printf("%s",ft_substr(s,7,9));
+// }
+
+// s dizisinde start değeri ile başlanıp len değerine kadar 
+// bellekte yer açar ve s dizisinden kopyalar.

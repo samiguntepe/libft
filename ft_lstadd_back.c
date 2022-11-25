@@ -6,12 +6,11 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:00:37 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/21 23:36:17 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 19:55:14 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
@@ -25,6 +24,8 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		temp->next = new;
 	}
 }
+
+// #include <stdio.h>
 
 // int main()
 // {

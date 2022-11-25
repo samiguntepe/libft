@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:00:43 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/24 10:32:12 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 19:55:45 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
@@ -26,6 +26,8 @@ void    *del(void *content)
    free(content);
     return 0;
 }
+
+// #include <stdio.h>
 
 // int main(void)
 // {

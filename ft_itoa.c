@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/16 17:45:55 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:08:00 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 19:55:02 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 static int	ft_numlen(int num)
 {
 	int	i;
@@ -56,11 +56,11 @@ char	*ft_itoa(int n)
 	return (dizi);
 }
 
-/*
-int main()
-{
-	printf("%s",ft_itoa(-123));
-}
-*/
+// #include <stdio.h>
+
+// int main()
+// {
+// 	printf("%s",ft_itoa(-123));
+// }
 
 // Fonksiyona girilen int değeri char dizisine çevirir.

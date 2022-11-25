@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:00:54 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/23 15:32:35 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 19:56:05 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 t_list	*ft_lstlast(t_list *lst)
 {
 	if (!lst)
@@ -22,6 +22,8 @@ t_list	*ft_lstlast(t_list *lst)
 	}
 	return (lst);
 }
+
+// #include <stdio.h>
 
 // int main()
 // {

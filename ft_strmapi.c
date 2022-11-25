@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/16 17:46:15 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 20:04:25 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	unsigned int	i;
@@ -31,21 +31,21 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	return (str);
 }
 
-/*
-char	ft_42(unsigned int a,char c)
-{
-	return(ft_toupper(c));
-}
+// #include <stdio.h>
 
-int main()
-{
-	char s[] = "merhaba";
-	char *str;
-	str = ft_strmapi(s,ft_42);
+// char	ft_42(unsigned int a,char c)
+// {
+// 	return(ft_toupper(c));
+// }
 
-	printf("%s",str);
-}
-*/
+// int main()
+// {
+// 	char s[] = "merhaba";
+// 	char *str;
+// 	str = ft_strmapi(s,ft_42);
 
-/* calloc ile bellekte yer açılır ve 
- * s dizisinin her indexine parametredeki fonksiyon uygulanır. */
+// 	printf("%s",str);
+// }
+
+// calloc ile bellekte yer açılır ve 
+// s dizisinin her indexine parametredeki fonksiyon uygulanır.

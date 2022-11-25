@@ -6,12 +6,11 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/18 15:20:35 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/01 16:59:10 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 20:00:55 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include <fcntl.h>
 
 void	ft_putendl_fd(char *s, int fd)
 {
@@ -19,12 +18,12 @@ void	ft_putendl_fd(char *s, int fd)
 	write(fd, "\n", 1);
 }
 
-/*
-int main()
-{
-	int fd = open("/Users/sguntepe/Desktop/test.txt",O_WRONLY);
-	ft_putendl_fd("Merhaba 42 Kocaeli",fd);
-}
-*/
+//#include <fcntl.h>
+
+// int main()
+// {
+// 	int fd = open("/Users/sguntepe/Desktop/test.txt",O_WRONLY);
+// 	ft_putendl_fd("Merhaba 42 Kocaeli",fd);
+// }
 
 // s dizisini fd dosyasına yazar ve bir alt satıra geçer.

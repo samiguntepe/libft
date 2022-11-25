@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 17:27:54 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 20:03:21 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 size_t	ft_strlcat(char *dst, const char *src, size_t n)
 {
 	size_t	i;
@@ -34,15 +34,15 @@ size_t	ft_strlcat(char *dst, const char *src, size_t n)
 	return (d + s);
 }
 
-/*
-int main()
-{
-	char *dest = "Merhaba";
-	char *src = "42Kocaeli";
+// #include <stdio.h>
 
-	printf("%zu",ft_strlcat(dest,src,4));
-}
-*/
+// int main()
+// {
+// 	char *dest = "Merhaba";
+// 	char *src = "42Kocaeli";
 
-/* dst dizisinin son karakteri null'dan sonra 
- * src dizisini ekliyor. dst'den n kadar ilerler. */
+// 	printf("%zu",ft_strlcat(dest,src,4));
+// }
+
+// dst dizisinin son karakteri null'dan sonra 
+// src dizisini ekliyor. dst'den n kadar ilerler.

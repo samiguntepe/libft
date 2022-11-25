@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 17:57:10 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/24 11:09:33 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 19:55:57 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
+
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	if (!f)
@@ -22,6 +22,8 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
+
+// #include <stdio.h>
 
 // void ft_change(void *content)
 // {

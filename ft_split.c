@@ -6,13 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 11:10:25 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 20:01:53 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
-// Ayırıcılar arası kaç kelime olduğunu sayar.
+
 unsigned int	wordcounter(const char *s, char delimiter)
 {
 	unsigned int	word;
@@ -60,18 +59,18 @@ char	**ft_split(char const *s, char c)
 	return (arr);
 }
 
-/*
-int main()
-{
-	char **str = ft_split("Merhaba 42 Kocaeli",' ');
-	int i;
-	i = 0;
-	while(i < 3)
-	{
-	printf("%s\n",str[i]);
-	i++;
-	}
-}
-*/
+// #include <stdio.h>
+
+// int main()
+// {
+// 	char **str = ft_split("Merhaba 42 Kocaeli",' ');
+// 	int i;
+// 	i = 0;
+// 	while(i < 3)
+// 	{
+// 	printf("%s\n",str[i]);
+// 	i++;
+// 	}
+// }
 
 // s dizisini c karakteri ile ayırır.

@@ -6,18 +6,20 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 16:31:05 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/21 23:38:31 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 19:55:24 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
 	new->next = *lst;
 	*lst = new;
 }
+
+// #include <stdio.h>
 
 // int main(void)
 // {

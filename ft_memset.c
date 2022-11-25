@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 11:40:19 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:10:04 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 19:58:20 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 void	*ft_memset(void *b, int c, size_t len)
 {
 	size_t	i;
@@ -25,14 +25,14 @@ void	*ft_memset(void *b, int c, size_t len)
 	return (b);
 }
 
-/*
-int	main(){
+// #include <stdio.h>
 
-	char dizi[] = "Merhaba42";
-	printf("%s",ft_memset(dizi,'c',3));
+// int	main(){
+
+// 	char dizi[] = "Merhaba42";
+// 	printf("%s",ft_memset(dizi,'c',3));
 	 
-    return 0;
-}
-*/
+//     return 0;
+// }
 
 // c değeri len değeri kadar b dizisine kopyalanır.

@@ -6,12 +6,12 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 16:31:09 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 13:08:24 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 19:56:22 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <stdio.h>
+
 int	ft_lstsize(t_list *lst)
 {
 	int	i;
@@ -24,6 +24,8 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (i);
 }
+
+// #include <stdio.h>
 
 // int main()
 // {

@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 17:59:04 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/20 18:01:43 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/25 20:09:08 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,22 +14,48 @@
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
-	t_list	*first;
 	t_list	*new;
+	t_list	*begin;
 
 	if (lst == NULL || f == NULL)
 		return (NULL);
-	first = NULL;
+	begin = NULL;
 	while (lst)
 	{
 		new = ft_lstnew((*f)(lst->content));
 		if (!new)
 		{
-			ft_lstclear(&first, del);
+			ft_lstclear(&begin, del);
 			return (NULL);
 		}
-		ft_lstadd_back(&first, new);
+		ft_lstadd_back(&begin, new);
 		lst = lst->next;
 	}
-	return (first);
+	return (begin);
 }
+
+// #include <stdio.h>
+
+// void    del(void *content)
+// {
+//    	free(content);
+// }
+
+// void *ft_change(void *content)
+// {
+// 	((char *)content)[0] -= 32;
+// 	return(content);
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+// 	t_list *node1,*node2;
+// 	t_list *tmp;
+// 	node1 = ft_lstnew(ft_strdup("sami"));
+// 	node2 = ft_lstnew(ft_strdup("kocaeli"));
+// 	ft_lstadd_back(&node1, node2);
+// 	tmp = ft_lstmap(node1, ft_change, del);
+// 	printf("**%s**", (char *)tmp->content);
+// 	printf("%s", (char *)tmp->next->content);
+// }
