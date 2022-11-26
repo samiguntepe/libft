@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 11:40:19 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/25 19:58:20 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/26 16:56:27 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	*ft_memset(void *b, int c, size_t len)
 
 // 	char dizi[] = "Merhaba42";
 // 	printf("%s",ft_memset(dizi,'c',3));
-	 
+
 //     return 0;
 // }
 

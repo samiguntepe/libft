@@ -6,12 +6,11 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:00:43 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/25 19:55:45 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/26 16:57:55 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
@@ -21,10 +20,10 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 	free(lst);
 }
 
-void    *del(void *content)
+void	*del(void *content)
 {
-   free(content);
-    return 0;
+	free(content);
+	return (0);
 }
 
 // #include <stdio.h>
@@ -41,7 +40,7 @@ void    *del(void *content)
 //     node2->next = NULL;
 
 //     ft_lstdelone(node1,(void *)(*del));
-    
+
 //     printf("%s\n",(char *)node1->content);
 //     printf("%s\n",(char *)node2->content);
 // }

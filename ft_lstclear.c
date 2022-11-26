@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:00:48 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/25 19:55:31 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/26 16:53:13 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,12 +37,11 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 // int main(void)
 // {
 //     t_list *node1,*node2,*node3;
-	
 // 	node1 = (t_list *)malloc(sizeof(t_list));
-//     node2 = (t_list *)malloc(sizeof(t_list));
+//	node2 = (t_list *)malloc(sizeof(t_list));
 // 	node3 = (t_list *)malloc(sizeof(t_list));
-	
-//     node1->content = ft_strdup("42Kocaeli");
+
+//	node1->content = ft_strdup("42Kocaeli");
 // 	node2->content = ft_strdup("42Kocaeli");
 // 	node3->content = ft_strdup("42Kocaeli");
 

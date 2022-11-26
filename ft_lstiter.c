@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 17:57:10 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/25 19:55:57 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/26 16:54:34 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,4 +52,5 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 // 	  printf("%s\n",(char *)node1->next->next->content);
 // }
 
-// struct bağlı listelerinin her bir elemanının contentine parametredeki fonksiyonu uygular.
+// struct bağlı listelerinin her bir elemanının 
+// contentine parametredeki fonksiyonu uygular.
