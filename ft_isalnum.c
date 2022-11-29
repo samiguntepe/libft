@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 13:15:43 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/29 13:02:32 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,5 @@ int	ft_isalnum(int c)
 	return (ft_isalpha(c) || ft_isdigit(c));
 }
 
-/*Fonksiyona girilen parametrenin alfanumerik karakter olup olmadığını
- döndürür. (0 veya 1 şeklinde) */
+// Fonksiyona girilen parametrenin alfanumerik karakter olup olmadığını
+// döndürür. (0 veya 1 şeklinde)

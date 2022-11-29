@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/15 19:49:53 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/29 13:07:04 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,5 +49,5 @@ char	*ft_strjoin(char const *s1, char const *s2)
 // 	printf("%s",(char *)ft_strjoin(s1,s2));
 // }
 
-/* s1 ve s2 dizisini birleştirerek 
- * malloc ile bellekte ayırdığımız yere kopyalar. */
+// s1 ve s2 dizisini birleştirerek 
+// malloc ile bellekte ayırdığımız yere kopyalar.

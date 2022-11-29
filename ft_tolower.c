@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 16:46:04 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/29 13:07:35 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,5 @@ int	ft_tolower(int c)
 		return (c);
 }
 
-/* Fonksiyona girilen parametre değerini küçük harf ise büyütür, 
- * büyük harf ise olduğu gibi döndürür. */
+// Fonksiyona girilen parametre değerini küçük harf ise büyütür, 
+// büyük harf ise olduğu gibi döndürür.

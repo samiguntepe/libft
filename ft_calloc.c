@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 09:19:15 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 16:58:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/11/29 13:02:01 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,5 @@ void	*ft_calloc(size_t count, size_t size)
 	return (ptr);
 }
 
-/* Malloc fonksiyonu ile bellekte alan açıp 
-ft_bzero fonksiyonu ile null yapıp döndürüyoruz. */
+// Malloc fonksiyonu ile bellekte alan açıp 
+// ft_bzero fonksiyonu ile null atayarak döndürüyoruz.
