@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 13:55:24 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/12/07 15:37:46 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,9 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 
 // int main()
 // {
-// 	char dst[] = "Sami Guntepe";
-// 	char src[] = "bilgi";
+// 	char str[] = "kocaeli";
 
-// 	printf("%s",ft_memmove(dst,src,3));
+// 	printf("%s",(char *)ft_memmove(str+2,str,3));
 // }
 
 // Memcopy ile aynı işlevi yapar fakat 

@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 12:33:41 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/12/07 15:38:09 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,9 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 
 // int main()
 // {
-// 	char	a[] = "bilgisayar";
-// 	char	b[] = "emre";
-// 	printf("%s", ft_memcpy(a, b, 3));
+// 	char str[] = "kocaeli";
+
+// 	printf("%s",(char *)ft_memcpy(str+2,str,4));
 // }
 
 // dst dizisine src dizisini n değeri kadar kopyalar.
