@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 15:00:43 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 16:57:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2022/12/07 11:12:09 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,13 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 	free(lst);
 }
 
-void	*del(void *content)
-{
-	free(content);
-	return (0);
-}
-
 // #include <stdio.h>
+
+// void	*del(void *content)
+// {
+// 	free(content);
+// 	return (0);
+// }
 
 // int main(void)
 // {
