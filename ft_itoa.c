@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/16 17:45:55 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/01 13:39:40 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,4 +63,4 @@ char	*ft_itoa(int n)
 // 	printf("%s",ft_itoa(-123));
 // }
 
-// Fonksiyona girilen int değeri char dizisine çevirir.
+// Parametreden gelen int "n" değerini char dizisine çevirir.

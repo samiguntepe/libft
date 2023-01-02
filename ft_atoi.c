@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 23:06:26 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 16:58:30 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/01 13:27:47 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,10 +42,10 @@ int	ft_atoi(const char *str)
 
 // #include <stdio.h>
 
-// int main()
+// int main(void)
 // {
 // 	char *str = " -123";
 // 	printf("%d",ft_atoi(str));
 // }
 
-// str'den gelen char dizisini int değere çeviriyor.
+// Parametreden gelen char dizisini int değere çevirir.
