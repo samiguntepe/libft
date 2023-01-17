@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 17:27:54 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/14 11:56:23 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,8 +41,11 @@ size_t	ft_strlcat(char *dst, const char *src, size_t n)
 // 	char *dest = "Merhaba";
 // 	char *src = "42Kocaeli";
 
-// 	printf("%zu",ft_strlcat(dest,src,4));
+// 	printf("%zu",ft_strlcat(dest,src,5));
 // }
 
 // dst dizisinin son karakteri null'dan sonra 
 // src dizisini ekliyor. dst'den n kadar ilerler.
+
+// "src" parametresinden gelen karakter dizisini "dst" parametresinden gelen
+// diziye ekliyor."n" parametresi ise "dst" dizisinin maksimum boyutunu belirler.

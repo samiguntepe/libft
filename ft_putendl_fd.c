@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/18 15:20:35 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/10 18:07:03 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,4 +26,5 @@ void	ft_putendl_fd(char *s, int fd)
 // 	ft_putendl_fd("Merhaba 42 Kocaeli",fd);
 // }
 
-// s dizisini fd dosyasına yazar ve bir alt satıra geçer.
+// Belirtilen dosya tanımlayıcısına (fd) "s" parametresinden gelen
+// char dizisi yazılır ve bir alt satıra geçer.

@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/16 17:46:06 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/12 22:53:43 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,4 +43,5 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 // 	printf("%s\n", str);
 // }
 
-// s stringindeki her karakterin adresine tek tek f fonksiyonu uygulanir.
+// "s" parametresinden gelen karakter dizisinin her karakterine
+// (f) fonksiyonu uygulanir.

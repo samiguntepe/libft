@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/16 17:46:15 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/17 20:57:13 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,5 +47,5 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 // 	printf("%s",str);
 // }
 
-// calloc ile bellekte yer açılır ve 
-// s dizisinin her indexine parametredeki fonksiyon uygulanır.
+// ft_calloc fonksiyonu ile bellekte yer açılır ve "s" parametresinden gelen
+// karakter dizisinin her indisine "f" parametresindeki fonksiyon uygulanır.

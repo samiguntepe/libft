@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 12:22:12 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 16:55:01 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/10 18:14:08 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,4 +36,6 @@ char	*ft_strchr(const char *s, int c)
 
 // }
 
-//Bulunan karakterden "c" itibaren sayar ve döndürür.
+// "s" parametresi ile gösterilen karakter dizisinde "c" parametresi ile
+// gösterilen değerin (unsigned char olarak değerlendirilir) ilk geçtiği
+// yeri arar ve bu bellek adresini gösteren bir işaretçi geri döndürür.

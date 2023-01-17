@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 11:03:15 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/14 11:54:15 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,4 +24,4 @@ size_t	ft_strlen(const char *s)
 	return (i);
 }
 
-// Fonksiyonun parametresine girilen dizinin uzunluğunu döndürür.
+// "s" parametresinden gelen karakter dizisinin uzunluğunu döndürür.

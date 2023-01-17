@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/18 15:21:12 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/10 18:07:50 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,3 +42,5 @@ void	ft_putnbr_fd(int n, int fd)
 // }
 
 // n parametresine girilen int değeri fd dosyasına yazar.
+// // Belirtilen dosya tanımlayıcısına (fd) "n" parametresinden gelen
+// int değer yazılır.

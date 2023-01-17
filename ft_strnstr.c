@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 23:06:06 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/17 20:55:50 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,5 +47,5 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 // 	printf("%s",ft_strnstr(hstack,needle,10));
 // }
 
-// needle(iğne)'yi haystack(samanlık)'da len kadar arar 
+// "needle(iğne)" yi "haystack(samanlık)" da "len" kadar arar.
 // bulduğu zaman devamını da döndürür.

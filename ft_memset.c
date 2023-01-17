@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 11:40:19 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 16:56:27 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/10 18:02:49 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,11 @@ void	*ft_memset(void *b, int c, size_t len)
 // int	main(){
 
 // 	char dizi[] = "Merhaba42";
-// 	printf("%s",ft_memset(dizi,'c',3));
+// 	printf("%s",(char *)ft_memset(dizi,'c',3));
 
 //     return 0;
 // }
 
-// c değeri len değeri kadar b dizisine kopyalanır.
+// "c" parametresi ile gösterilen bellek bölgesindeki karakteri dest
+// parametresindeki bellek bölgesinin ilk "n" parametre değeri kadar byte'ına
+// kopyalar.

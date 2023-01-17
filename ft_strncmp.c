@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 09:33:28 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/17 20:53:40 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 // 	printf("%d",ft_strncmp(s1,s2,2)); 
 // }
 
-// s1 parametresi ve s2 parametresi (iki string değeri)
-// n değeri kadar karşılaştırılır.
+// "s1" parametresi ve "s2" parametresi (iki string değeri)
+// "n" değeri kadar karşılaştırılır.
 // Aynı ise 0 değeri farklı ise 0'dan farklı bir değer girilir. 
 // NUll karakter gördüğü zaman durur.

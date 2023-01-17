@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 11:10:25 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/10 18:10:02 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,3 +74,5 @@ char	**ft_split(char const *s, char c)
 // }
 
 // s dizisini c karakteri ile ayırır.
+// "s" parametresinden gelen char dizisini "c" parametresinden gelen
+// karakter ile ayırır.

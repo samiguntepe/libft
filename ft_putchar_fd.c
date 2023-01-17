@@ -6,7 +6,7 @@
 /*   By: sguntepe <@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/18 15:20:38 by sguntepe          #+#    #+#             */
-/*   Updated: 2022/11/26 17:00:55 by sguntepe         ###   ########.fr       */
+/*   Updated: 2023/01/10 18:05:09 by sguntepe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,4 +25,5 @@ void	ft_putchar_fd(char c, int fd)
 // 	ft_putchar_fd('S',fd);
 // }
 
-// Belirtilen dosya tanimlayicisina (fd) c karakterini yazar.
+// Belirtilen dosya tanımlayıcısına (fd) "c" parametresinden gelen
+// karakteri yazar.
